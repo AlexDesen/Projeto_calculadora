@@ -1,5 +1,5 @@
-from CALCULADORA.operacoes_simples import soma
-from CALCULADORA.operacoes_simples import subtracao 
+from CALCULADORA.operacoes_simples import soma,subtracao
+
 
 
 print("CALCULADORA")
