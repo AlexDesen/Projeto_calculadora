@@ -1,4 +1,5 @@
 from CALCULADORA.operacoes_simples import soma
+from CALCULADORA.operacoes_simples import subtracao 
 
 
 print("CALCULADORA")
@@ -20,6 +21,10 @@ if __name__ =="__main__":
             print(f"O resultado da soma é:{resultado}")
             print()
         elif opcao == 2:
-            print("OPÇÃO SUBTRAÇÃO.")
+            argumento1 = int(input("Agumrnto 1: "))
+            argumento2 = int(input("Agumrnto 2: "))
+            resultado1 = subtracao(argumento1, argumento2)
+            print(f"O resultado da soma é:{resultado1}")
+            print() 
         elif opcao == 3:
             print("OBRIGADO POR USAR A NOSSA  CALCULADORA: ")
