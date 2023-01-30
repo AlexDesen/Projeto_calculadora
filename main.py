@@ -1,5 +1,5 @@
-from CALCULADORA.operacoes_simples import soma
-from CALCULADORA.operacoes_simples import subtracao 
+from CALCULADORA.operacoes_simples import soma,subtracao
+
 
 
 print("CALCULADORA")
@@ -28,3 +28,4 @@ if __name__ =="__main__":
             print() 
         elif opcao == 3:
             print("OBRIGADO POR USAR A NOSSA  CALCULADORA: ")
+            # oi
