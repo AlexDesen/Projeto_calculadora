@@ -1,3 +1,8 @@
+# comando para resolver comflitos - git rebase <no da branch>
+#  e resolvido o conflito git rebase --continue 
+# Comando para vizualizar branch - git branch
+# Deletando branch local - git  branch -D <nome da branch>
+# Deletando branch  remoto - git push origin:<nome da branch>
 from CALCULADORA.operacoes_simples import soma
 from CALCULADORA.operacoes_simples import subtracao 
 
